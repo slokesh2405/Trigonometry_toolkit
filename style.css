@@ -1,0 +1,58 @@
+/* style.css file */
+
+
+/* Font and display style for whole body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  /* Styling for the heading*/
+  .calc_head{
+    text-align:center;
+    color: rgb(137, 213, 93);
+    margin-bottom: 50px;
+  }
+  
+  /* Styling for the calculator class div */
+  .calculator {
+    text-align: center;
+    padding: 80px;
+    border: 1px solid #7ac1e2;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  /* Formatting the lable */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Formatting the input box */
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the calculate button*/
+  button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid rgb(44, 231, 128);
+  }
+  
+  /* Formatting the output */
+  #output {
+    font-size: 1vw;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  

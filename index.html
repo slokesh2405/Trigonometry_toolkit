@@ -1,0 +1,28 @@
+<!--index.html file-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigonometry Toolbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+
+    <div class="calc_head"><h1>Trigonometry Toolbox</h1></div>
+
+    <label for="angleInput">Enter an angle (in degrees):</label>
+    <input type="number" id="angleInput" min="0" step="any">
+
+    <button onclick="calculateTrigFun()">Calculate</button>   <!--on clicking the button, user-defined calculateTrigFun() function gets called which is defined in JavaScript file -->
+
+    <pre id="output"></pre>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
